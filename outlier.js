@@ -13,7 +13,7 @@ function findOutlier(array){
         for(let i = 0; i < even.length; i++){
             outlier += even[i]
         }
-    }else{
+    }else if(odd.length === 1){
         for(let i = 0; i < odd.length; i++){
             outlier += odd[i]
         }
